@@ -3,3 +3,28 @@
 *::before {
   box-sizing: border-box;
 }
+body {
+  padding: 1.5em 2em;
+}
+h1 {
+  text-transform: uppercase;
+  color: dodgerblue;
+}
+.ordered {
+  color: red;
+  /* list-style: none; */
+  line-height: 1.5em;
+}
+#ol {
+  color: rgb(3, 181, 122);
+  list-style: circle;
+}
+.unordered {
+  color: darksalmon;
+  line-height: 0.9em;
+}
+#ul {
+  color: rgb(59, 7, 7);
+  line-height: 1.5em;
+  list-style: none;
+}
